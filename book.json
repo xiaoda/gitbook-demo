@@ -1,0 +1,25 @@
+{
+    "language" : "zh-hans",
+    "plugins": [
+        "-sharing",
+        "-lunr", 
+        "-search", 
+        "search-pro",
+        "hide-element",
+        "back-to-top-button",
+        "chapter-fold",
+        "code",
+        "splitter",
+        "tbfed-pagefooter"
+    ],
+    "pluginsConfig": {
+        "hide-element": {
+            "elements": [".gitbook-link"]
+        },
+        "tbfed-pagefooter": {
+            "copyright": "Copyright &copy anchnet.com 2022",
+            "modify_label": "文档更新时间：",
+            "modify_format": "YYYY-MM-DD"
+        }
+    }
+}
